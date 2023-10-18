@@ -2,12 +2,13 @@
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
-The working directory is /home. This did not have an output because it
-is meant to display the current directory. Since there is no current directory
-that I am in, it follows that there wouldn't be a displayed cd. 
+The working directory is /home. This command is meant to change the directory
+to the specified path. Since the specified path is empty, it stays in the /home 
+directory. When tested from a different working directory, the new directory is
+/home.
 This is not an error.
 ```
-[user@sahara ~]$ cd
+[user@sahara ~]$ ls
 lecture1
 [user@sahara ~]$
 ```
@@ -19,7 +20,7 @@ This is not an error.
 
 ```
 The working directory is /home. The output is empty because I did not provide
-paths to concatenate. This is an error because I can no longer use commands.
+paths to concatenate. This is not an error.
 ```
 [user@sahara ~]$ cd /home/lecture1
 [user@sahara ~lecture1]$
