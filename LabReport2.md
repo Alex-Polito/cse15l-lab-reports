@@ -1,4 +1,4 @@
-##Part 1
+## Part 1
 Code for my StringServer. It is in the wavelet folder from week2.
 ```
 import java.io.IOException;
@@ -37,11 +37,12 @@ class StringServer {
 }
 ```
 
-![Image](Screenshot 2023-10-20 123909.png)
+![Image](Lab2Screenshot1.png)
 Screenshot 1: is a success, adds messages to the list in the expected format.
 This calls the handleRequest method, and reads the lines inside both if statements because they are true.
 This increments the counter and adds to the String display, which are permanently altered for the url created.
+![Image](Lab2Screenshot2.png)
 Screenshot 2: not a success, returns error not found message.
 This calls the handleRequest method, but skips the if statement because it doesn't find /add-method in the url.
 This does not increment the counter or change the String display
-##Part 2
+## Part 2
