@@ -46,3 +46,7 @@ Screenshot 2: not a success, returns error not found message.
 This calls the handleRequest method, but skips the if statement because it doesn't find /add-method in the url.
 This does not increment the counter or change the String display
 ## Part 2
+![Image](Lab2Screenshot4.png)
+![Image](Lab2Screenshot3.png)
+## Part 3
+I learned how to login to a remote server. This is not something I've done before and I can see the practical uses of it, like storing/accessing data that would occupy too much space on my laptop.
