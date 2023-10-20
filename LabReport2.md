@@ -37,7 +37,7 @@ class StringServer {
 }
 ```
 
-![Image](C:\Users\marga\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\TempState\Screenshot 2023-10-18 113120.png)
+![Image](Screenshot 2023-10-20 123909.png)
 Screenshot 1: is a success, adds messages to the list in the expected format.
 This calls the handleRequest method, and reads the lines inside both if statements because they are true.
 This increments the counter and adds to the String display, which are permanently altered for the url created.
