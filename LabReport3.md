@@ -17,7 +17,7 @@ Non-failure test:
 	}
 ```
 Symptom:
-
+![Image] ("Lab3Screenshot1.png")
 Code with bug:
 ```
 static void reverseInPlace(int[] arr) {
