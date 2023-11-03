@@ -101,5 +101,6 @@ technical/government/About_LSC/Comments_on_semiannual.txt
 find technical/ -ipath "*Alcohol_Problems/Session2-PDF.txt"
 technical/government/Alcohol_Problems/Session2-PDF.txt
 ```
-This command is usefule because it allows you to find files without needing to know the entire path, but is a specific enough search that the output is not long. 
+This command is usefule because it allows you to find files without needing to know the entire path, but is a specific enough search that the output is not long. <br>
+I used the same source to find all commands. Here is the link: 
 [Source](https://www.redhat.com/sysadmin/linux-find-command)
